@@ -1,0 +1,159 @@
+/**
+ * border radius
+ */
+
+.btn,
+.jumbotron,
+.nav :hover {
+    border-radius: 0px;
+}
+
+.nav-link {
+    text-shadow: 2px 2px 3px black;
+    font-weight: bold;
+}
+
+h4, ul {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(152, 66, 249);
+}
+
+/* cart badge */
+
+.cart-badge,
+.cart-badge:hover {
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 12px;
+    font-style: italic;
+    background: #000;
+}
+/**
+ * single product page - product name
+ */
+
+.name {
+    background: indigo;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+    background: #f2f2f2;
+}
+.black-9 {
+    background: #e6e6e6;
+}
+.black-8 {
+    background: #d9d9d9;
+}
+.black-7 {
+    background: #cccccc;
+}
+.black-6 {
+    background: #bfbfbf;
+}
+.black-5 {
+    background: #b3b3b3;
+}
+
+/**
+ * product image on card
+ */
+
+.product-img {
+    min-height: 100px;
+}
+
+.jumbotron h2 {
+    margin-top: -20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+p {
+    text-shadow: 1px 1px 2px rgb(57, 2, 145);
+}
+
+.card,.input-group-text, .form-control {
+    box-shadow: 3px 3px 8px black;
+
+}
+
+.btn, .card-header {
+    box-shadow: 2px 2px 4px black;
+    font-weight: bold;
+}
+
+.card-header {
+    background-image: linear-gradient(45deg, rgb(17, 0, 255), rgb(107, 28, 254), rgb(202, 131, 250)  );
+    color: white;
+    text-shadow: 3px 3px 4px black;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron h2 {
+        margin-top: 10px;
+    }
+
+    .pic {
+        max-width: 50px;
+        max-height: 100px;
+  
+    }
+    .pic-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/**
+ * jumbotron animation
+ */
+
+.jumbotron {
+    height: 180px;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    box-shadow: 3px 3px 8px black;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
