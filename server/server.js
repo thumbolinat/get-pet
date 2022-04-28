@@ -11,6 +11,9 @@ require("dotenv").config();
 
 //routes
 const authRoutes = require("./routes/auth");
+const userRoutes = require("./routes/user");
+const catRoutes = require("./routes/category");
+const productRoutes = require("./routes/product");
 
 
 //mongoose database connection
@@ -26,6 +29,9 @@ app.use(expressValidator());
 app.use(cors());
 
 app.use("/api", authRoutes);
+app.use("/api", userRoutes);
+app.use("/api", catRoutes);
+app.use("/api", productRoutes);
 
 const port = process.env.PORT || 8000;
 
