@@ -63,10 +63,11 @@ Save changes to .env file and deploy.
 - Node.js
 - Express.js
 - GraphQL
-- Bcrypt
+- Braintree payment gateway
 - Json Web Token autheticatiion
 - NoSQL Database (Mongodb)
-- 
+- React
+- Mongoose
 - 
 <br>
 
