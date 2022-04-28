@@ -9,6 +9,9 @@ const cors = require("cors");
 const expressValidator = require("express-validator");
 require("dotenv").config();
 
+//routes
+const authRoutes = require("./routes/auth");
+
 
 //mongoose database connection
 mongoose.connect(process.env.MONGODB_URI, {})
@@ -22,6 +25,7 @@ app.use(cookieParser());
 app.use(expressValidator());
 app.use(cors());
 
+app.use("/api", authRoutes);
 
 const port = process.env.PORT || 8000;
 
