@@ -1,24 +1,46 @@
 
 # Marakesh-North
 
----
-<br>
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-<br>
+![image](https://user-images.githubusercontent.com/92878321/165866017-c1d3d131-0039-49bc-84dc-e807ced5757b.png)
 
 ---
 <br>
+
+## Description
+This e-commerce platform provides an online bazaar experience where customers can convienently peruse merchandise from a wide selection.  
+
+Merchants are able to add their products to be displayed for purchase and associate it to different categories to enable customers to easily find what they are looking for.
+
+Items can be purchased with a simple transaction process facilitated through the Braintree gateway.
+
+<br>
+
+---
+
 <br>
 
 ## User Story
-- 
+
+As a user of the platform, I want easily navigate the application to search for items I want to purchase, have the ability to pay with a credit card and receive a purchase confirmation. 
+
+End user objective: Purchase items with a credit card. 
+
+Site owner objective: Increase purchases.
+
+Acceptance criteria: 
+
+* Accept Visa and PayPal 
+* Validate credit card number 
+* Validate expiration date 
+* Validate billing address 
+* Generate success/failure messages after processing
+
+Measurement of success: Successful order of item.
 
 <br>
 
 ---
-<br>
+
 <br>
 
 ## Acceptance Criteria
@@ -29,7 +51,7 @@
 
 - Use MongoDB and the Mongoose ODM for the database.
 
-- Use queries and mutations for retrieving, adding, updating, and deleting data.
+- Use queries and mutations for retrieving, adding, updating, and deleting data. 
 
 - Be deployed using Heroku (with data).
 
@@ -51,16 +73,6 @@
 
 ---
 <br>
-<br>
-
-## Description:
-An online bazaar 
-
-<br>
-
----
-<br>
-<br>
 
 ## Usage and Installation
 
@@ -78,38 +90,20 @@ Save changes to .env file and deploy.
 
 ---
 <br>
-<br>
 
 ## Built With:
 
 - Node.js
 - Express.js
-- GraphQL
 - Braintree payment gateway
 - Json Web Token autheticatiion
 - NoSQL Database (Mongodb)
 - React
 - Mongoose
-- 
+
 <br>
 
 ---
-<br>
-<br>
-
-## Screenshots
-
-![Screenshot1](./content/images/pic1.png)
-<br>
-![Screenshot2](./content/images/pic2.png)
-<br>
-![Screenshot3](./content/images/pic3.png)
-<br>
-![Screenshot4](./content/images/pic4.png)
-<br>
-
----
-<br>
 <br>
 
 ## Links
@@ -121,15 +115,15 @@ Deployed Application:
 Github Repository:
 
  - https://github.com/thumbolinat/marakesh-north
+
 <br>
 
 ---
 <br>
-<br>
 
 ## License
 
-MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2022 Vithursan6
 
@@ -153,3 +147,4 @@ SOFTWARE.
 <br>
 
 ---
+
